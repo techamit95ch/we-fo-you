@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import { ScrollView, Text, TextInput, TouchableOpacity } from 'react-native';
+import { Alert, ScrollView, Text, TextInput, TouchableOpacity } from 'react-native';
 import DatePicker from 'react-native-date-picker';
 import { RectButton } from 'react-native-gesture-handler';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -43,6 +43,29 @@ const CompleteYourProfile = ({ navigation }: CompleteYourProfileProps) => {
 
 	const handleDateChange = useCallback(
 		(date: Date) => {
+			const today = new Date();
+			const birthYear = birthDate.getFullYear();
+			const birthMonth = birthDate.getMonth();
+			const birthDay = birthDate.getDate();
+
+			const currentYear = today.getFullYear();
+			const currentMonth = today.getMonth();
+			const currentDay = today.getDate();
+
+			let age = currentYear - birthYear;
+
+			// Check if the current month and day are before the birth month and day
+			if (
+				currentMonth < birthMonth ||
+				(currentMonth === birthMonth && currentDay < birthDay)
+			) {
+				age--;
+			}
+
+			// return age >= 18;
+			if (age < 18) {
+				return Alert.alert('Minor', 'User must be 18 years old');
+			}
 			dispatch(setTempDOB(date?.toDateString()));
 			setOpen(false);
 		},

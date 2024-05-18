@@ -60,8 +60,8 @@ function OTPScreenph() {
 				handleCellTextChange={handleCellTextChange}
 				inputCount={4}
 				keyboardType="numeric"
-				selectionColor="#F44586"
-				clearInputs
+				tintColor={'#F44586'}
+				autoFocus
 			/>
 
 			<RectButton onPress={handleVerifyOTP} style={commonStyles.button}>
