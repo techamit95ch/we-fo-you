@@ -1,0 +1,67 @@
+{
+	"expo": {
+		"name": "Weefou",
+		"slug": "weefou",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "cover",
+			"backgroundColor": "#ffffff"
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": false,
+			"bundleIdentifier": "com.weefou",
+			"googleServicesFile": "./GoogleService-Info.plist"
+		},
+		"developmentClient": {
+			"silentLaunch": true
+		},
+		"updates": {
+			"enabled": true,
+			"checkAutomatically": "WIFI_ONLY"
+		},
+		"githubUrl": "https://github.com/kartikkalia74/b4you-app-v2",
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png"
+			},
+			"allowBackup": true,
+			"icon": "./assets/adaptive-icon.png",
+			"package": "com.weefou",
+			"googleServicesFile": "./google-services.json"
+		},
+		"web": {
+			"favicon": "./assets/icon2.png"
+		},
+		"plugins": [
+			[
+				"expo-location",
+				{
+					"locationAlwaysAndWhenInUsePermission": "Allow Weefou to use your location to get you nearest matches"
+				}
+			],
+			[
+				"expo-contacts",
+				{
+					"contactsPermission": "Allow Weefou to access your contacts to share our app"
+				}
+			],
+			"@react-native-google-signin/google-signin",
+			[
+				"expo-build-properties",
+				{
+					"android": {
+						"flipper": "0.125.0"
+					},
+					"ios": {
+						"flipper": true
+					}
+				}
+			]
+		]
+	}
+}

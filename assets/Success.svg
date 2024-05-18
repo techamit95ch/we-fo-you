@@ -1,0 +1,13 @@
+<svg width="144" height="145" viewBox="0 0 144 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Success">
+<path id="Ellipse" fill-rule="evenodd" clip-rule="evenodd" d="M75.1578 144.885C113.178 144.885 144 114.063 144 76.0428C144 38.0223 113.178 7.20068 75.1578 7.20068C37.1373 7.20068 6.31567 38.0223 6.31567 76.0428C6.31567 114.063 37.1373 144.885 75.1578 144.885Z" fill="url(#paint0_linear_142_426)"/>
+<path id="Ellipse Stroke" fill-rule="evenodd" clip-rule="evenodd" d="M68.9577 134.366C32.8346 134.366 3.54924 105.081 3.54924 68.9577C3.54924 32.8347 32.8346 3.54929 68.9577 3.54929C105.081 3.54929 134.366 32.8347 134.366 68.9577C134.366 105.081 105.081 134.366 68.9577 134.366ZM68.9577 0C30.8734 0 0 30.8734 0 68.9577C0 107.042 30.8734 137.915 68.9577 137.915C107.042 137.915 137.915 107.042 137.915 68.9577C137.915 30.8734 107.042 0 68.9577 0Z" fill="#030303"/>
+<path id="Checkmark" fill-rule="evenodd" clip-rule="evenodd" d="M86.4196 50.1484L61.209 76.092L52.5282 67.1602L46.7368 73.1205L61.2373 88.0432L92.2105 56.1082L86.4196 50.1484Z" fill="#030303"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_142_426" x1="-62.5264" y1="76.0428" x2="75.1578" y2="213.727" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF6480"/>
+<stop offset="1" stop-color="#F22E63"/>
+</linearGradient>
+</defs>
+</svg>

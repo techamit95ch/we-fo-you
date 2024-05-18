@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "959244036811",
+    "project_id": "weefou",
+    "storage_bucket": "weefou.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959244036811:android:b90fee13785ff8990f094e",
+        "android_client_info": {
+          "package_name": "com.weefou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959244036811-njtqvmdtd9qhhrq1suiunmlv7rf75s1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weefou",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "959244036811-sfjl21duicsj7mu88st9feug946el9hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClYQeHdCFCxwvkTG3_KWgNN47ndStrssk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959244036811-sfjl21duicsj7mu88st9feug946el9hb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "959244036811-ake58jhhgv6ue86tqvh1t8lmpuk85l4p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.weefou"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
